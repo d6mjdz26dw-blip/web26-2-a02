@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Basic</title>
+    <script>
+        //객체를 선언
+        let person = {
+            name: '박가은', 
+            eat: function (food){
+                alert(this.name + '이 ' + food + '을 먹습니다.')
+            }
+        };
+
+        person.eat('밥');
+    </script>
 </head>
 
 <body>
